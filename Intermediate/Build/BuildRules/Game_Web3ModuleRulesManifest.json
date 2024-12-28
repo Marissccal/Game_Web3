@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Engine 5\\Game_Web3\\Source\\Game_Web3\\Game_Web3.Build.cs",
+		"D:\\Unreal Engine 5\\Game_Web3\\Plugins\\Improved\\Source\\ImprovedQuestSystem\\ImprovedQuestSystem.Build.cs",
+		"D:\\Unreal Engine 5\\Game_Web3\\Source\\Game_Web3.Target.cs",
+		"D:\\Unreal Engine 5\\Game_Web3\\Source\\Game_Web3Editor.Target.cs"
+	],
+	"EngineVersion": "5.5.1"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Game_Web3",
+			"Path": "..\\Source\\Game_Web3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Game_Web3Editor",
+			"Path": "..\\Source\\Game_Web3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Game_Web3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Game_Web3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Game_Web3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Improved">
+      <UniqueIdentifier>{6EAEE85D-8F4E-3B29-93AF-3FD2262FDA71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Improved\Source">
+      <UniqueIdentifier>{6B62B8B5-F3DE-398F-AD4A-AB148992D627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem">
+      <UniqueIdentifier>{DDC52BE8-EFCC-397A-8A6E-0C8B663DC55F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\ImprovedQuestSystem.Build.cs">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem</Filter>
+    </None>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private">
+      <UniqueIdentifier>{F74C6D4F-07C8-368F-8243-899D42CD625F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\ImprovedQuestSystem.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Components">
+      <UniqueIdentifier>{3B8C50F6-043D-39EB-AA70-CDE9A51BD55A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Components\IQS_QuestSystemComponent.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\RewardActor">
+      <UniqueIdentifier>{26F1BA33-2E90-3AFB-A61C-56D8014DC2B0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\RewardActor\IQS_RewardActor.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\RewardActor</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Structure">
+      <UniqueIdentifier>{DB67411C-6D79-35CE-8F37-D8BC0238EBF2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Structure\IQS_Types.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Structure</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets">
+      <UniqueIdentifier>{ABBDF8A4-7ED1-3284-96EF-42D5357BED7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\Compass">
+      <UniqueIdentifier>{4AE78195-1634-30E6-962D-C0EC9AD51E63}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\Compass\IQS_CompassWidget.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\Compass</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\Minimap">
+      <UniqueIdentifier>{D2F62029-7E22-313E-9680-D7BB53835E31}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\Minimap\IQS_MinimapWidget.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\Minimap</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems">
+      <UniqueIdentifier>{94824FC5-14F4-37FC-AE36-5C328930D00C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\IQS_QuestMarkerBase.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Compass">
+      <UniqueIdentifier>{E0E3ABE5-49EE-32BB-982F-86F51375B5A6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Compass\IQS_QuestCompassMarkerActor.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Compass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Compass\IQS_QuestCompassMarkerLocation.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Compass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Compass\IQS_StaticDirWidget.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Compass</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap">
+      <UniqueIdentifier>{D50E993B-65DF-3F75-BDAA-91A206216863}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap\IQS_MinimapMarkerBase.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap\IQS_PlayerMarker.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap\IQS_QuestMarkerActorMinimap.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap\IQS_QuestMarkerActorMinimap_NoRotation.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap\IQS_QuestMarkerLocationMinimap.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap\IQS_QuestMarkerLocationMinimap_NoRotation.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Screen">
+      <UniqueIdentifier>{909E2D73-9963-3E45-99E4-6E3D795B29BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Screen\IQS_QuestMarkerActor.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Screen\IQS_QuestMarkerLocation.cpp">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Private\Widgets\SingleElems\Screen</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public">
+      <UniqueIdentifier>{F9E74E53-8029-3D14-A460-3AB53B9E25E0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\ImprovedQuestSystem.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Components">
+      <UniqueIdentifier>{18D6726F-A589-369F-B89A-2B1388A20793}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Components\IQS_QuestSystemComponent.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Interface">
+      <UniqueIdentifier>{31A2C4D3-44B9-3157-9D13-FC47F3B6098C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Interface\IQS_QuestObjectiveInterfaceCpp.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Interface</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\RewardActor">
+      <UniqueIdentifier>{010B3863-083B-3CA5-AD1E-F73FBD608A41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\RewardActor\IQS_RewardActor.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\RewardActor</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Structure">
+      <UniqueIdentifier>{41EB0D7D-35C7-3105-B5CA-0170794F3953}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Structure\IQS_Types.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Structure</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets">
+      <UniqueIdentifier>{854FE544-6915-38F8-85FD-A56F25A8D129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\Compass">
+      <UniqueIdentifier>{1B4A29BE-7CB2-3AB3-9D5F-422FE6F05DC3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\Compass\IQS_CompassWidget.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\Compass</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\Minimap">
+      <UniqueIdentifier>{B0748EDD-7837-3DC4-8071-786A7CA2B597}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\Minimap\IQS_MinimapWidget.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\Minimap</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems">
+      <UniqueIdentifier>{545C38FF-8763-3853-85EB-6C04E6D0CA8C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\IQS_QuestMarkerBase.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Compass">
+      <UniqueIdentifier>{CC3C0AA4-CE9C-3D69-B0FD-67C10A953929}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Compass\IQS_QuestCompassMarkerActor.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Compass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Compass\IQS_QuestCompassMarkerLocation.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Compass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Compass\IQS_StaticDirWidget.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Compass</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap">
+      <UniqueIdentifier>{2BDC1043-FD77-3C60-8074-02DEE8D46627}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap\IQS_MinimapMarkerBase.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap\IQS_PlayerMarker.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap\IQS_QuestMarkerActorMinimap.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap\IQS_QuestMarkerActorMinimap_NoRotation.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap\IQS_QuestMarkerLocationMinimap.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap\IQS_QuestMarkerLocationMinimap_NoRotation.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Minimap</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Screen">
+      <UniqueIdentifier>{235BE917-E344-365F-AA53-B40921151E45}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Screen\IQS_QuestMarkerActor.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Screen\IQS_QuestMarkerLocation.h">
+      <Filter>Plugins\Improved\Source\ImprovedQuestSystem\Public\Widgets\SingleElems\Screen</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Improved\ImprovedQuestSystem.uplugin">
+      <Filter>Plugins\Improved</Filter>
+    </None>
+    <Filter Include="Plugins\Improved\Resources">
+      <UniqueIdentifier>{C099DF3A-E08C-3031-A98E-9B23F2B086CC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Improved\Resources\Icon128.png">
+      <Filter>Plugins\Improved\Resources</Filter>
+    </None>
+    <Filter Include="Source\Game_Web3">
+      <UniqueIdentifier>{C230256A-8366-30B4-924A-82B62142ED3E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Game_Web3\Game_Web3.Build.cs">
+      <Filter>Source\Game_Web3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Game_Web3\Game_Web3.cpp">
+      <Filter>Source\Game_Web3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game_Web3\Game_Web3.h">
+      <Filter>Source\Game_Web3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
