@@ -476,6 +476,8 @@
     <None Include="..\..\Game_Web3.uproject"/>
     <None Include="..\..\Source\Game_Web3.Target.cs"/>
     <None Include="..\..\Source\Game_Web3Editor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
